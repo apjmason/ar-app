@@ -5,19 +5,19 @@ licenseType: Free
 SketchUpImporter:
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 00000000010000000200000003000000040000000500000006000000
+  selectedNodes: 000000000100000002000000030000000400000005000000
   assetHash:
     serializedVersion: 2
-    Hash: e345ed161a2dedc726e82886d3e0c51f
+    Hash: 7e7317033a63640c35efd1fb2d65ece9
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 20.084633, y: 2.6151674, z: 12.83713}
-      lookAt: {x: 4.7743163, y: 1.9738308, z: 3.1938775}
-      up: {x: -0.02997238, y: 0.9993724, z: -0.0188782}
+      position: {x: 40.86246, y: 7.3695874, z: 21.63731}
+      lookAt: {x: 25.101313, y: 2.4892664, z: 14.182238}
+      up: {x: -0.24366575, y: 0.9629867, z: -0.11525465}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -36,12 +36,15 @@ SketchUpImporter:
     2300000: Component
     2300002: Lisanne
     2300004: skpVwZK8T
+    2300006: //RootNode
     3300000: Component
     3300002: Lisanne
     3300004: skpVwZK8T
+    3300006: //RootNode
     4300000: Mesh Lisanne
     4300002: Mesh skpVwZK8T
     4300004: Mesh Component
+    4300006: Mesh Seccombe15
   materials:
     importMaterials: 1
     materialName: 2

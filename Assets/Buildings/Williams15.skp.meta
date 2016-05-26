@@ -5,19 +5,19 @@ licenseType: Free
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000
+  selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 84479c31969fa7236dc1fc5a7a221dd9
+    Hash: 1429b366a2cb94a036b361b445c0f4b4
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -4.651272, y: 6.7489724, z: -13.615302}
-      lookAt: {x: 10.336636, y: 2.5932493, z: 6.979638}
-      up: {x: 0.09475008, y: 0.9869505, z: 0.13019644}
+      position: {x: -10.571269, y: 9.1327715, z: -22.790901}
+      lookAt: {x: 5.536169, y: 3.9536211, z: -3.302808}
+      up: {x: 0.12784925, y: 0.97965705, z: 0.15468247}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -30,8 +30,11 @@ SketchUpImporter:
     400000: skpOfXmPt
     400002: //RootNode
     2300000: skpOfXmPt
+    2300002: //RootNode
     3300000: skpOfXmPt
+    3300002: //RootNode
     4300000: Mesh skpOfXmPt
+    4300002: Mesh Williams15
   materials:
     importMaterials: 1
     materialName: 2
