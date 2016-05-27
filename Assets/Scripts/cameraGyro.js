@@ -29,7 +29,7 @@
 	 private var heading : float = 0;
 	 private var headingUpDwn : float = 0;
 	
-	 public var joystick : Joystick; 
+	 public var joystick : UnityStandardAssets.CrossPlatformInput.Joystick; 
 
 	 // mouse/touch input
 	 public var touchRotatesHeading : boolean = true;
@@ -62,10 +62,7 @@
 		 camGrandparent.transform.parent = currentParent;
 
 		 // check whether device supports gyroscope
-		#if UNITY_3_4
-		gyroBool = Input.isGyroAvailable; 
-		#endif
-		#if UNITY_3_5
+		#if UNITY_5
 		gyroBool = SystemInfo.supportsGyroscope; 
 		#endif
 
@@ -127,12 +124,12 @@
 			camGrandparent.transform.localEulerAngles.z = headingUpDwn; 
 		#endif
 
-		if (joystick.position.x > 0 || joystick.position.x < 0) {
-			camGrandparent.transform.position.z += joystick.position.x; 
+		if (joystick.transform.position.x > 0 || joystick.transform.position.x < 0) {
+			camGrandparent.transform.position.z += joystick.transform.position.x; 
 		};
 
-		if (joystick.position.y > 0 || joystick.position.y < 0) {
-			camGrandparent.transform.position.x += joystick.position.y; 
+		if (joystick.transform.position.y > 0 || joystick.transform.position.y < 0) {
+			camGrandparent.transform.position.x += joystick.transform.position.y; 
 		};
 
 	}
