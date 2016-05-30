@@ -6,7 +6,10 @@ public class MediaTrigger : MonoBehaviour {
 	public bool guiShow;
 	public bool played;
 	public Texture HistoricImage;
+	public AudioClip HisoricAudio;
+	public Texture[] AdditionalDocs;
 	public Material blue;
+
 	AudioClip clip;
 	float posx = Screen.width / 6;
 	float posy = Screen.height / 6;
@@ -41,14 +44,24 @@ public class MediaTrigger : MonoBehaviour {
 	}
 
 	void OnGUI() {
+		Rect position = new Rect (posx, posy, 1024, 512);
+
 		if (!HistoricImage) {
 			Debug.LogError ("Assign a Texture in the inspector.");
 			return;
 		}
 		if (guiShow == true) {
 //			GUI.color = new Color() { a = 0.5f };
-			GUI.DrawTexture (new Rect (posx, posy, 1024, 512), HistoricImage, ScaleMode.ScaleToFit, true, 0);
+			GUI.DrawTexture (position, HistoricImage, ScaleMode.ScaleToFit, true, 0);
 		}
+
+		if (GUI.Button (new Rect (posx + 924, posy + 612, 100, 50), "Next Image")) { 
+			foreach (Texture doc in AdditionalDocs) {
+				GUI.DrawTexture (position, doc, ScaleMode.ScaleToFit, true, 0);
+			}
+
+		}
+
 	}
 
 }
