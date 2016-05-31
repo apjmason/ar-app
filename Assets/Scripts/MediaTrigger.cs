@@ -11,6 +11,8 @@ public class MediaTrigger : MonoBehaviour {
 	public Material blue;
 	MeshRenderer my_rend;
 	public Image image;
+	public Button RightB;
+	public Button LeftB;
 
 	AudioClip clip;
 //	float posx = Screen.width / 6;
@@ -40,7 +42,7 @@ public class MediaTrigger : MonoBehaviour {
 				AudioSource.PlayClipAtPoint (clip, transform.position);
 			}
 			played = true;
-			showImage ();
+			showCanvas ();
 		}
 	}
 
@@ -51,16 +53,22 @@ public class MediaTrigger : MonoBehaviour {
 			if (played == true) {
 				my_rend.material = blue;
 			}
+			showCanvas ();
 		}
 	}
 
-	public void showImage()
+	private void showCanvas()
 	{
 		if (guiShow == true) {
 			image.sprite = HistoricImage;
 			image.enabled = true;
+			//enable buttons
+			Canvas canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+			canvas.enabled = true;
+
 		} else {
 			image.enabled = false;
+
 		}
 	}
 
@@ -68,7 +76,8 @@ public class MediaTrigger : MonoBehaviour {
 	{
 		foreach (Sprite doc in additionalDocs)
 		{
-			image.GetComponent<Image> ().sprite = doc;
+			Debug.Log (doc.name);
+			image.sprite = doc;
 		} 
 	}
 }

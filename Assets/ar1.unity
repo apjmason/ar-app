@@ -450,7 +450,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1024, y: 700}
+  m_SizeDelta: {x: 800, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640067884
 MonoBehaviour:
@@ -926,6 +926,8 @@ MonoBehaviour:
   HisoricAudio: {fileID: 0}
   blue: {fileID: 2100000, guid: 64da5623da1774c2a97e294fc62479e7, type: 2}
   image: {fileID: 640067884}
+  RightB: {fileID: 1760936119}
+  LeftB: {fileID: 1406263786}
   additionalDocs:
   - {fileID: 21300000, guid: 88f5a34acb75e40f486f9920f262dac1, type: 3}
   - {fileID: 21300000, guid: 024feb53490fe4c01a53e36b540465be, type: 3}
@@ -1066,7 +1068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1406263785
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1082,7 +1084,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: -175}
+  m_AnchoredPosition: {x: -300, y: -175}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406263786
@@ -1485,7 +1487,7 @@ MonoBehaviour:
   m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ForceModuleActive: 1
+  m_ForceModuleActive: 0
 --- !u!1 &1693226795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1760936118
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1605,7 +1607,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360, y: -175}
+  m_AnchoredPosition: {x: 300, y: -175}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760936119
@@ -1658,12 +1660,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1365464054}
-        m_MethodName: 
+      - m_Target: {fileID: 1365464056}
+        m_MethodName: OnClickChangeBackground
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1831,6 +1833,8 @@ MonoBehaviour:
   HisoricAudio: {fileID: 0}
   blue: {fileID: 2100000, guid: 64da5623da1774c2a97e294fc62479e7, type: 2}
   image: {fileID: 0}
+  RightB: {fileID: 0}
+  LeftB: {fileID: 0}
   additionalDocs: []
 --- !u!23 &1827301083
 MeshRenderer:
@@ -2099,10 +2103,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1024, y: 800}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2115,7 +2119,7 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2111534799}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_RenderMode: 0
   m_Camera: {fileID: 0}
