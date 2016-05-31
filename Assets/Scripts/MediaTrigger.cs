@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+//using UnityStandardAssets.Characters.FirstPerson;
 
 public class MediaTrigger : MonoBehaviour {
 
 	public bool guiShow;
 	public bool played;
 	public Sprite HistoricImage;
-	public AudioClip HisoricAudio;
+	public AudioClip HistoricAudio;
 	public Material blue;
 	MeshRenderer my_rend;
 	public Image image;
@@ -19,13 +20,18 @@ public class MediaTrigger : MonoBehaviour {
 //	float posy = Screen.height / 6;
 
 	public static int currentSprite = 0;
-	string resourceName = "Additional Docs";
-	public Sprite[] additionalDocs;
+	public string resourceName = "Clip2";
+	private Sprite[] additionalDocs;
+//	public FirstPersonController fpsController;
+	Canvas canvas;
 
 	void Awake()
 	{
-		if (resourceName != "")
+		if (resourceName != "") {
 			additionalDocs = Resources.LoadAll<Sprite> (resourceName);
+		}
+//		fpsController = GetComponent<FirstPersonController>();
+		canvas = GameObject.Find ("Canvas").GetComponent<Canvas> ();
 	}
 		
 	void Start() {
@@ -43,6 +49,7 @@ public class MediaTrigger : MonoBehaviour {
 			}
 			played = true;
 			showCanvas ();
+//			DisableController();
 		}
 	}
 
@@ -54,6 +61,7 @@ public class MediaTrigger : MonoBehaviour {
 				my_rend.material = blue;
 			}
 			showCanvas ();
+//			EnableController ();
 		}
 	}
 
@@ -63,24 +71,54 @@ public class MediaTrigger : MonoBehaviour {
 			image.sprite = HistoricImage;
 			image.enabled = true;
 			//enable buttons
-			Canvas canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
 			canvas.enabled = true;
-
 		} else {
 			image.enabled = false;
-
+			canvas.enabled = false;
 		}
 	}
 
-	public void OnClickChangeBackground()
-	{
-		foreach (Sprite doc in additionalDocs)
-		{
-			Debug.Log (doc.name);
-			image.sprite = doc;
-		} 
+//	private void DisableController()
+//	{
+//		fpsController.enabled = false;
+//	}
+//
+//	private void EnableController()
+//	{
+//		fpsController.enabled = true;
+//	}
+
+//	public void OnClickChangeBackground()
+//	{
+//		foreach (Sprite doc in additionalDocs)
+//		{
+//			Debug.Log (doc.name);
+//			image.sprite = doc;
+//		} 
+//	}
+
+	void Update() {
+		// check for if in sphere?
+		if (Input.GetKeyDown (KeyCode.R)) {
+			if (currentSprite < additionalDocs.Length) {
+				image.sprite = additionalDocs [currentSprite];
+				currentSprite++;
+			} else {
+				currentSprite = 0;
+			}
+		} 		
+
+		// fix to make not play twice
+		if (Input.GetKeyDown (KeyCode.L)) {
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Stop ();
+			AudioSource.PlayClipAtPoint (HistoricAudio, transform.position);
+
+		}
+
 	}
 }
+
 
 //	void OnGUI() {
 //		Rect position = new Rect (posx, posy, 1024, 512);

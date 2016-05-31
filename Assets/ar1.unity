@@ -624,7 +624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &987348635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -874,6 +874,10 @@ Prefab:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_MouseLook.lockCursor
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -923,15 +927,12 @@ MonoBehaviour:
   guiShow: 0
   played: 0
   HistoricImage: {fileID: 21300000, guid: 61ea4da2b8da14de18a100a73303c4f9, type: 3}
-  HisoricAudio: {fileID: 0}
+  HistoricAudio: {fileID: 8300000, guid: 4ee990a652b0a4d77a2d834c18ea5e64, type: 3}
   blue: {fileID: 2100000, guid: 64da5623da1774c2a97e294fc62479e7, type: 2}
   image: {fileID: 640067884}
   RightB: {fileID: 1760936119}
   LeftB: {fileID: 1406263786}
-  additionalDocs:
-  - {fileID: 21300000, guid: 88f5a34acb75e40f486f9920f262dac1, type: 3}
-  - {fileID: 21300000, guid: 024feb53490fe4c01a53e36b540465be, type: 3}
-  - {fileID: 21300000, guid: 50e1f60aeae9f49de9950e8cce4eb8db, type: 3}
+  resourceName: Clip2
 --- !u!23 &1365464057
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -996,7 +997,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 250
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -1482,7 +1483,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1663268626}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -1505,7 +1506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1693226796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,17 +1650,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1365464056}
         m_MethodName: OnClickChangeBackground
         m_Mode: 1
@@ -1830,12 +1820,12 @@ MonoBehaviour:
   guiShow: 0
   played: 0
   HistoricImage: {fileID: 2800000, guid: 76fb18caf0ed94bbda8e4e0a5a8ce6b2, type: 3}
-  HisoricAudio: {fileID: 0}
+  HistoricAudio: {fileID: 0}
   blue: {fileID: 2100000, guid: 64da5623da1774c2a97e294fc62479e7, type: 2}
   image: {fileID: 0}
   RightB: {fileID: 0}
   LeftB: {fileID: 0}
-  additionalDocs: []
+  resourceName: Clip2
 --- !u!23 &1827301083
 MeshRenderer:
   m_ObjectHideFlags: 0
