@@ -20,16 +20,14 @@ public class MediaTrigger : MonoBehaviour {
 //	float posy = Screen.height / 6;
 
 	public static int currentSprite = 0;
-	public string resourceName = "Clip2";
-	private Sprite[] additionalDocs;
+	public string resourceName = "";
+	private Sprite[] additionalDocs = null;
 //	public FirstPersonController fpsController;
 	Canvas canvas;
 
 	void Awake()
 	{
-		if (resourceName != "") {
-			additionalDocs = Resources.LoadAll<Sprite> (resourceName);
-		}
+
 //		fpsController = GetComponent<FirstPersonController>();
 		canvas = GameObject.Find ("Canvas").GetComponent<Canvas> ();
 	}
@@ -39,6 +37,10 @@ public class MediaTrigger : MonoBehaviour {
 	}
 
 	public void OnTriggerEnter(Collider other) {		
+		if (resourceName != "") {
+			additionalDocs = Resources.LoadAll<Sprite> (resourceName);
+		}
+
 		if (other.gameObject.CompareTag ("Player")) {
 			my_rend.enabled = false;
 			guiShow = true;
@@ -61,6 +63,8 @@ public class MediaTrigger : MonoBehaviour {
 				my_rend.material = blue;
 			}
 			showCanvas ();
+			additionalDocs = null;
+
 //			EnableController ();
 		}
 	}
