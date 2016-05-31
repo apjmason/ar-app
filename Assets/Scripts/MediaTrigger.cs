@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-//using UnityStandardAssets.Characters.FirstPerson;
 
 public class MediaTrigger : MonoBehaviour {
 
@@ -16,19 +15,13 @@ public class MediaTrigger : MonoBehaviour {
 	public Button LeftB;
 
 	AudioClip clip;
-//	float posx = Screen.width / 6;
-//	float posy = Screen.height / 6;
 
 	public static int currentSprite = 0;
 	public string resourceName = "";
 	private Sprite[] additionalDocs = null;
-//	public FirstPersonController fpsController;
 	Canvas canvas;
 
-	void Awake()
-	{
-
-//		fpsController = GetComponent<FirstPersonController>();
+	void Awake() {
 		canvas = GameObject.Find ("Canvas").GetComponent<Canvas> ();
 	}
 		
@@ -51,7 +44,6 @@ public class MediaTrigger : MonoBehaviour {
 			}
 			played = true;
 			showCanvas ();
-//			DisableController();
 		}
 	}
 
@@ -64,8 +56,6 @@ public class MediaTrigger : MonoBehaviour {
 			}
 			showCanvas ();
 			additionalDocs = null;
-
-//			EnableController ();
 		}
 	}
 
@@ -82,15 +72,6 @@ public class MediaTrigger : MonoBehaviour {
 		}
 	}
 
-//	private void DisableController()
-//	{
-//		fpsController.enabled = false;
-//	}
-//
-//	private void EnableController()
-//	{
-//		fpsController.enabled = true;
-//	}
 
 //	public void OnClickChangeBackground()
 //	{
@@ -122,27 +103,4 @@ public class MediaTrigger : MonoBehaviour {
 
 	}
 }
-
-
-//	void OnGUI() {
-//		Rect position = new Rect (posx, posy, 1024, 512);
-//
-//		if (!HistoricImage) {
-//			Debug.LogError ("Assign a Texture in the inspector.");
-//			return;
-//		}
-//		if (guiShow == true) {
-////			GUI.color = new Color() { a = 0.5f };
-//			GUI.DrawTexture (position, HistoricImage, ScaleMode.ScaleToFit, true, 0);
-//		}
-//
-//		if (GUI.Button (new Rect (posx + 924, posy + 612, 100, 50), "Next Image")) { 
-//			foreach (Texture doc in AdditionalDocs) {
-//				GUI.DrawTexture (position, doc, ScaleMode.ScaleToFit, true, 0);
-//			}
-//
-//		}
-
-//	}
-//
-//}
+	
