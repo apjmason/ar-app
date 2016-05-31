@@ -1,26 +1,36 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MediaTrigger : MonoBehaviour {
 
 	public bool guiShow;
 	public bool played;
-	public Texture HistoricImage;
+	public Sprite HistoricImage;
 	public AudioClip HisoricAudio;
-	public Texture[] AdditionalDocs;
 	public Material blue;
+	MeshRenderer my_rend;
+	public Image image;
 
 	AudioClip clip;
-	float posx = Screen.width / 6;
-	float posy = Screen.height / 6;
-	MeshRenderer my_rend;
-//	public float alpha;
+//	float posx = Screen.width / 6;
+//	float posy = Screen.height / 6;
 
+	public static int currentSprite = 0;
+	string resourceName = "Additional Docs";
+	public Sprite[] additionalDocs;
+
+	void Awake()
+	{
+		if (resourceName != "")
+			additionalDocs = Resources.LoadAll<Sprite> (resourceName);
+	}
+		
 	void Start() {
 		my_rend = GetComponent<MeshRenderer> ();
 	}
 
-	void OnTriggerEnter(Collider other) {		
+	public void OnTriggerEnter(Collider other) {		
 		if (other.gameObject.CompareTag ("Player")) {
 			my_rend.enabled = false;
 			guiShow = true;
@@ -30,10 +40,11 @@ public class MediaTrigger : MonoBehaviour {
 				AudioSource.PlayClipAtPoint (clip, transform.position);
 			}
 			played = true;
+			showImage ();
 		}
 	}
 
-	void OnTriggerExit(Collider other) {
+	public void OnTriggerExit(Collider other) {
 		if (other.gameObject.CompareTag ("Player")) {
 			my_rend.enabled = true;
 			guiShow = false;
@@ -43,25 +54,44 @@ public class MediaTrigger : MonoBehaviour {
 		}
 	}
 
-	void OnGUI() {
-		Rect position = new Rect (posx, posy, 1024, 512);
-
-		if (!HistoricImage) {
-			Debug.LogError ("Assign a Texture in the inspector.");
-			return;
-		}
+	public void showImage()
+	{
 		if (guiShow == true) {
-//			GUI.color = new Color() { a = 0.5f };
-			GUI.DrawTexture (position, HistoricImage, ScaleMode.ScaleToFit, true, 0);
+			image.sprite = HistoricImage;
+			image.enabled = true;
+		} else {
+			image.enabled = false;
 		}
-
-		if (GUI.Button (new Rect (posx + 924, posy + 612, 100, 50), "Next Image")) { 
-			foreach (Texture doc in AdditionalDocs) {
-				GUI.DrawTexture (position, doc, ScaleMode.ScaleToFit, true, 0);
-			}
-
-		}
-
 	}
 
+	public void OnClickChangeBackground()
+	{
+		foreach (Sprite doc in additionalDocs)
+		{
+			image.GetComponent<Image> ().sprite = doc;
+		} 
+	}
 }
+
+//	void OnGUI() {
+//		Rect position = new Rect (posx, posy, 1024, 512);
+//
+//		if (!HistoricImage) {
+//			Debug.LogError ("Assign a Texture in the inspector.");
+//			return;
+//		}
+//		if (guiShow == true) {
+////			GUI.color = new Color() { a = 0.5f };
+//			GUI.DrawTexture (position, HistoricImage, ScaleMode.ScaleToFit, true, 0);
+//		}
+//
+//		if (GUI.Button (new Rect (posx + 924, posy + 612, 100, 50), "Next Image")) { 
+//			foreach (Texture doc in AdditionalDocs) {
+//				GUI.DrawTexture (position, doc, ScaleMode.ScaleToFit, true, 0);
+//			}
+//
+//		}
+
+//	}
+//
+//}

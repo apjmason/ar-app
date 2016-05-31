@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Trigger
+  - Clip2
+  - Clip3
+  - Clip4
+  - Clip5
+  - Clip6
+  - Clip7
+  - Clip8
+  - Clip1
+  - Button
   layers:
   - Default
   - TransparentFX
