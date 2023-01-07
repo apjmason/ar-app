@@ -5,46 +5,1384 @@ licenseType: Free
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000
   assetHash:
     serializedVersion: 2
-    Hash: 9d6d00d90b98f40ce92dd33af0a9218f
-  longitude: 0
-  latitude: 0
-  northCorrection: 0
+    Hash: 1a1a59c5c3e108e151d4b65bbfaef115
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 0, y: 0, z: 0}
-      lookAt: {x: 0, y: 0, z: 1}
-      up: {x: 0, y: 1, z: 0}
-      fov: 45
-      aspectRatio: 1.33
-      orthoSize: 0
+      position: {x: -14.79734, y: -0.43177852, z: -38.198753}
+      lookAt: {x: 7.314879, y: 3.9762383, z: -1.5543761}
+      up: {x: -0.05840668, y: 0.99471766, z: -0.08441216}
+      fov: 11.450642
+      aspectRatio: 2.765
+      orthoSize: 1
       isPerspective: 1
-    scenes: []
-  serializedVersion: 19
-  fileIDToRecycleName: {}
+    scenes:
+    - camera:
+        position: {x: -14.79734, y: -0.43177852, z: -38.198753}
+        lookAt: {x: 7.314879, y: 3.9762383, z: -1.5543761}
+        up: {x: -0.05840668, y: 0.99471766, z: -0.08441216}
+        fov: 11.450642
+        aspectRatio: 2.765
+        orthoSize: 1
+        isPerspective: 1
+      name: GridleyPanorama
+    - camera:
+        position: {x: 42.326824, y: 0.1424167, z: -16.43124}
+        lookAt: {x: 21.377338, y: 3.1659842, z: 1.6096532}
+        up: {x: 0.09756847, y: 0.99380285, z: -0.053257946}
+        fov: 22.71637
+        aspectRatio: 1.547997
+        orthoSize: 1
+        isPerspective: 1
+      name: GirdleyPostcard
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chimney
+    100002: Chimney 1
+    100004: Chimney 10
+    100006: Chimney 11
+    100008: Chimney 12
+    100010: Chimney 13
+    100012: Chimney 14
+    100014: Chimney 15
+    100016: Chimney 16
+    100018: Chimney 17
+    100020: Chimney 18
+    100022: Chimney 19
+    100024: Chimney 2
+    100026: Chimney 3
+    100028: Chimney 4
+    100030: Chimney 5
+    100032: Chimney 6
+    100034: Chimney 7
+    100036: Chimney 8
+    100038: Chimney 9
+    100040: door
+    100042: door 1
+    100044: Floorplan
+    100046: //RootNode
+    100048: Group 10
+    100050: Group 12
+    100052: Group 14
+    100054: Group 22
+    100056: Group 4
+    100058: Group 558
+    100060: Group 6
+    100062: Group 8
+    100064: Image 561
+    100066: Pillar
+    100068: Pillar 1
+    100070: Pillar 2
+    100072: Pillar 3
+    100074: Pillar 4
+    100076: Pillar 5
+    100078: Roof
+    100080: Tread
+    100082: Tread 1
+    100084: Tread 2
+    100086: Tread#1
+    100088: Tread#1 1
+    100090: Tread#1 2
+    100092: window1
+    100094: window1 1
+    100096: window1 10
+    100098: window1 11
+    100100: window1 12
+    100102: window1 13
+    100104: window1 14
+    100106: window1 15
+    100108: window1 16
+    100110: window1 17
+    100112: window1 18
+    100114: window1 19
+    100116: window1 2
+    100118: window1 20
+    100120: window1 21
+    100122: window1 22
+    100124: window1 23
+    100126: window1 24
+    100128: window1 25
+    100130: window1 26
+    100132: window1 27
+    100134: window1 28
+    100136: window1 29
+    100138: window1 3
+    100140: window1 30
+    100142: window1 31
+    100144: window1 32
+    100146: window1 33
+    100148: window1 34
+    100150: window1 35
+    100152: window1 36
+    100154: window1 37
+    100156: window1 38
+    100158: window1 39
+    100160: window1 4
+    100162: window1 40
+    100164: window1 41
+    100166: window1 42
+    100168: window1 43
+    100170: window1 44
+    100172: window1 45
+    100174: window1 46
+    100176: window1 47
+    100178: window1 48
+    100180: window1 49
+    100182: window1 5
+    100184: window1 50
+    100186: window1 51
+    100188: window1 52
+    100190: window1 53
+    100192: window1 54
+    100194: window1 55
+    100196: window1 56
+    100198: window1 57
+    100200: window1 58
+    100202: window1 59
+    100204: window1 6
+    100206: window1 60
+    100208: window1 61
+    100210: window1 62
+    100212: window1 63
+    100214: window1 64
+    100216: window1 65
+    100218: window1 7
+    100220: window1 8
+    100222: window1 9
+    100224: window2
+    100226: window2 1
+    100228: window2 10
+    100230: window2 11
+    100232: window2 12
+    100234: window2 13
+    100236: window2 14
+    100238: window2 15
+    100240: window2 16
+    100242: window2 17
+    100244: window2 18
+    100246: window2 19
+    100248: window2 2
+    100250: window2 20
+    100252: window2 21
+    100254: window2 22
+    100256: window2 23
+    100258: window2 24
+    100260: window2 25
+    100262: window2 26
+    100264: window2 27
+    100266: window2 28
+    100268: window2 29
+    100270: window2 3
+    100272: window2 30
+    100274: window2 31
+    100276: window2 32
+    100278: window2 33
+    100280: window2 34
+    100282: window2 35
+    100284: window2 36
+    100286: window2 37
+    100288: window2 38
+    100290: window2 39
+    100292: window2 4
+    100294: window2 40
+    100296: window2 41
+    100298: window2 42
+    100300: window2 43
+    100302: window2 44
+    100304: window2 45
+    100306: window2 46
+    100308: window2 47
+    100310: window2 48
+    100312: window2 49
+    100314: window2 5
+    100316: window2 50
+    100318: window2 51
+    100320: window2 52
+    100322: window2 53
+    100324: window2 54
+    100326: window2 55
+    100328: window2 56
+    100330: window2 57
+    100332: window2 58
+    100334: window2 59
+    100336: window2 6
+    100338: window2 60
+    100340: window2 61
+    100342: window2 62
+    100344: window2 63
+    100346: window2 64
+    100348: window2 7
+    100350: window2 8
+    100352: window2 9
+    100354: window2x3
+    100356: window2x3 1
+    100358: window3
+    100360: window3 1
+    100362: window3 10
+    100364: window3 11
+    100366: window3 12
+    100368: window3 13
+    100370: window3 14
+    100372: window3 15
+    100374: window3 16
+    100376: window3 17
+    100378: window3 18
+    100380: window3 19
+    100382: window3 2
+    100384: window3 20
+    100386: window3 21
+    100388: window3 22
+    100390: window3 23
+    100392: window3 24
+    100394: window3 25
+    100396: window3 26
+    100398: window3 27
+    100400: window3 28
+    100402: window3 29
+    100404: window3 3
+    100406: window3 30
+    100408: window3 31
+    100410: window3 32
+    100412: window3 33
+    100414: window3 34
+    100416: window3 35
+    100418: window3 36
+    100420: window3 37
+    100422: window3 38
+    100424: window3 39
+    100426: window3 4
+    100428: window3 40
+    100430: window3 41
+    100432: window3 42
+    100434: window3 43
+    100436: window3 44
+    100438: window3 45
+    100440: window3 46
+    100442: window3 47
+    100444: window3 48
+    100446: window3 49
+    100448: window3 5
+    100450: window3 50
+    100452: window3 51
+    100454: window3 52
+    100456: window3 53
+    100458: window3 54
+    100460: window3 55
+    100462: window3 56
+    100464: window3 57
+    100466: window3 58
+    100468: window3 59
+    100470: window3 6
+    100472: window3 60
+    100474: window3 61
+    100476: window3 62
+    100478: window3 63
+    100480: window3 64
+    100482: window3 7
+    100484: window3 8
+    100486: window3 9
+    100488: window3x3
+    100490: window3x3 1
+    100492: window_basement
+    100494: window_basement 1
+    100496: window_basement 10
+    100498: window_basement 11
+    100500: window_basement 12
+    100502: window_basement 13
+    100504: window_basement 14
+    100506: window_basement 15
+    100508: window_basement 16
+    100510: window_basement 17
+    100512: window_basement 18
+    100514: window_basement 19
+    100516: window_basement 2
+    100518: window_basement 20
+    100520: window_basement 21
+    100522: window_basement 22
+    100524: window_basement 23
+    100526: window_basement 24
+    100528: window_basement 25
+    100530: window_basement 26
+    100532: window_basement 27
+    100534: window_basement 28
+    100536: window_basement 29
+    100538: window_basement 3
+    100540: window_basement 30
+    100542: window_basement 31
+    100544: window_basement 32
+    100546: window_basement 33
+    100548: window_basement 34
+    100550: window_basement 35
+    100552: window_basement 36
+    100554: window_basement 37
+    100556: window_basement 38
+    100558: window_basement 39
+    100560: window_basement 4
+    100562: window_basement 40
+    100564: window_basement 41
+    100566: window_basement 42
+    100568: window_basement 43
+    100570: window_basement 44
+    100572: window_basement 45
+    100574: window_basement 46
+    100576: window_basement 47
+    100578: window_basement 48
+    100580: window_basement 49
+    100582: window_basement 5
+    100584: window_basement 50
+    100586: window_basement 51
+    100588: window_basement 52
+    100590: window_basement 53
+    100592: window_basement 54
+    100594: window_basement 55
+    100596: window_basement 56
+    100598: window_basement 57
+    100600: window_basement 58
+    100602: window_basement 59
+    100604: window_basement 6
+    100606: window_basement 60
+    100608: window_basement 61
+    100610: window_basement 7
+    100612: window_basement 8
+    100614: window_basement 9
+    400000: Chimney
+    400002: Chimney 1
+    400004: Chimney 10
+    400006: Chimney 11
+    400008: Chimney 12
+    400010: Chimney 13
+    400012: Chimney 14
+    400014: Chimney 15
+    400016: Chimney 16
+    400018: Chimney 17
+    400020: Chimney 18
+    400022: Chimney 19
+    400024: Chimney 2
+    400026: Chimney 3
+    400028: Chimney 4
+    400030: Chimney 5
+    400032: Chimney 6
+    400034: Chimney 7
+    400036: Chimney 8
+    400038: Chimney 9
+    400040: door
+    400042: door 1
+    400044: Floorplan
+    400046: //RootNode
+    400048: Group 10
+    400050: Group 12
+    400052: Group 14
+    400054: Group 22
+    400056: Group 4
+    400058: Group 558
+    400060: Group 6
+    400062: Group 8
+    400064: Image 561
+    400066: Pillar
+    400068: Pillar 1
+    400070: Pillar 2
+    400072: Pillar 3
+    400074: Pillar 4
+    400076: Pillar 5
+    400078: Roof
+    400080: Tread
+    400082: Tread 1
+    400084: Tread 2
+    400086: Tread#1
+    400088: Tread#1 1
+    400090: Tread#1 2
+    400092: window1
+    400094: window1 1
+    400096: window1 10
+    400098: window1 11
+    400100: window1 12
+    400102: window1 13
+    400104: window1 14
+    400106: window1 15
+    400108: window1 16
+    400110: window1 17
+    400112: window1 18
+    400114: window1 19
+    400116: window1 2
+    400118: window1 20
+    400120: window1 21
+    400122: window1 22
+    400124: window1 23
+    400126: window1 24
+    400128: window1 25
+    400130: window1 26
+    400132: window1 27
+    400134: window1 28
+    400136: window1 29
+    400138: window1 3
+    400140: window1 30
+    400142: window1 31
+    400144: window1 32
+    400146: window1 33
+    400148: window1 34
+    400150: window1 35
+    400152: window1 36
+    400154: window1 37
+    400156: window1 38
+    400158: window1 39
+    400160: window1 4
+    400162: window1 40
+    400164: window1 41
+    400166: window1 42
+    400168: window1 43
+    400170: window1 44
+    400172: window1 45
+    400174: window1 46
+    400176: window1 47
+    400178: window1 48
+    400180: window1 49
+    400182: window1 5
+    400184: window1 50
+    400186: window1 51
+    400188: window1 52
+    400190: window1 53
+    400192: window1 54
+    400194: window1 55
+    400196: window1 56
+    400198: window1 57
+    400200: window1 58
+    400202: window1 59
+    400204: window1 6
+    400206: window1 60
+    400208: window1 61
+    400210: window1 62
+    400212: window1 63
+    400214: window1 64
+    400216: window1 65
+    400218: window1 7
+    400220: window1 8
+    400222: window1 9
+    400224: window2
+    400226: window2 1
+    400228: window2 10
+    400230: window2 11
+    400232: window2 12
+    400234: window2 13
+    400236: window2 14
+    400238: window2 15
+    400240: window2 16
+    400242: window2 17
+    400244: window2 18
+    400246: window2 19
+    400248: window2 2
+    400250: window2 20
+    400252: window2 21
+    400254: window2 22
+    400256: window2 23
+    400258: window2 24
+    400260: window2 25
+    400262: window2 26
+    400264: window2 27
+    400266: window2 28
+    400268: window2 29
+    400270: window2 3
+    400272: window2 30
+    400274: window2 31
+    400276: window2 32
+    400278: window2 33
+    400280: window2 34
+    400282: window2 35
+    400284: window2 36
+    400286: window2 37
+    400288: window2 38
+    400290: window2 39
+    400292: window2 4
+    400294: window2 40
+    400296: window2 41
+    400298: window2 42
+    400300: window2 43
+    400302: window2 44
+    400304: window2 45
+    400306: window2 46
+    400308: window2 47
+    400310: window2 48
+    400312: window2 49
+    400314: window2 5
+    400316: window2 50
+    400318: window2 51
+    400320: window2 52
+    400322: window2 53
+    400324: window2 54
+    400326: window2 55
+    400328: window2 56
+    400330: window2 57
+    400332: window2 58
+    400334: window2 59
+    400336: window2 6
+    400338: window2 60
+    400340: window2 61
+    400342: window2 62
+    400344: window2 63
+    400346: window2 64
+    400348: window2 7
+    400350: window2 8
+    400352: window2 9
+    400354: window2x3
+    400356: window2x3 1
+    400358: window3
+    400360: window3 1
+    400362: window3 10
+    400364: window3 11
+    400366: window3 12
+    400368: window3 13
+    400370: window3 14
+    400372: window3 15
+    400374: window3 16
+    400376: window3 17
+    400378: window3 18
+    400380: window3 19
+    400382: window3 2
+    400384: window3 20
+    400386: window3 21
+    400388: window3 22
+    400390: window3 23
+    400392: window3 24
+    400394: window3 25
+    400396: window3 26
+    400398: window3 27
+    400400: window3 28
+    400402: window3 29
+    400404: window3 3
+    400406: window3 30
+    400408: window3 31
+    400410: window3 32
+    400412: window3 33
+    400414: window3 34
+    400416: window3 35
+    400418: window3 36
+    400420: window3 37
+    400422: window3 38
+    400424: window3 39
+    400426: window3 4
+    400428: window3 40
+    400430: window3 41
+    400432: window3 42
+    400434: window3 43
+    400436: window3 44
+    400438: window3 45
+    400440: window3 46
+    400442: window3 47
+    400444: window3 48
+    400446: window3 49
+    400448: window3 5
+    400450: window3 50
+    400452: window3 51
+    400454: window3 52
+    400456: window3 53
+    400458: window3 54
+    400460: window3 55
+    400462: window3 56
+    400464: window3 57
+    400466: window3 58
+    400468: window3 59
+    400470: window3 6
+    400472: window3 60
+    400474: window3 61
+    400476: window3 62
+    400478: window3 63
+    400480: window3 64
+    400482: window3 7
+    400484: window3 8
+    400486: window3 9
+    400488: window3x3
+    400490: window3x3 1
+    400492: window_basement
+    400494: window_basement 1
+    400496: window_basement 10
+    400498: window_basement 11
+    400500: window_basement 12
+    400502: window_basement 13
+    400504: window_basement 14
+    400506: window_basement 15
+    400508: window_basement 16
+    400510: window_basement 17
+    400512: window_basement 18
+    400514: window_basement 19
+    400516: window_basement 2
+    400518: window_basement 20
+    400520: window_basement 21
+    400522: window_basement 22
+    400524: window_basement 23
+    400526: window_basement 24
+    400528: window_basement 25
+    400530: window_basement 26
+    400532: window_basement 27
+    400534: window_basement 28
+    400536: window_basement 29
+    400538: window_basement 3
+    400540: window_basement 30
+    400542: window_basement 31
+    400544: window_basement 32
+    400546: window_basement 33
+    400548: window_basement 34
+    400550: window_basement 35
+    400552: window_basement 36
+    400554: window_basement 37
+    400556: window_basement 38
+    400558: window_basement 39
+    400560: window_basement 4
+    400562: window_basement 40
+    400564: window_basement 41
+    400566: window_basement 42
+    400568: window_basement 43
+    400570: window_basement 44
+    400572: window_basement 45
+    400574: window_basement 46
+    400576: window_basement 47
+    400578: window_basement 48
+    400580: window_basement 49
+    400582: window_basement 5
+    400584: window_basement 50
+    400586: window_basement 51
+    400588: window_basement 52
+    400590: window_basement 53
+    400592: window_basement 54
+    400594: window_basement 55
+    400596: window_basement 56
+    400598: window_basement 57
+    400600: window_basement 58
+    400602: window_basement 59
+    400604: window_basement 6
+    400606: window_basement 60
+    400608: window_basement 61
+    400610: window_basement 7
+    400612: window_basement 8
+    400614: window_basement 9
+    2300000: Chimney
+    2300002: Chimney 1
+    2300004: Chimney 10
+    2300006: Chimney 11
+    2300008: Chimney 12
+    2300010: Chimney 13
+    2300012: Chimney 14
+    2300014: Chimney 15
+    2300016: Chimney 16
+    2300018: Chimney 17
+    2300020: Chimney 18
+    2300022: Chimney 19
+    2300024: Chimney 2
+    2300026: Chimney 3
+    2300028: Chimney 4
+    2300030: Chimney 5
+    2300032: Chimney 6
+    2300034: Chimney 7
+    2300036: Chimney 8
+    2300038: Chimney 9
+    2300040: door
+    2300042: door 1
+    2300044: //RootNode
+    2300046: Group 10
+    2300048: Group 12
+    2300050: Group 14
+    2300052: Group 22
+    2300054: Group 4
+    2300056: Group 558
+    2300058: Group 6
+    2300060: Group 8
+    2300062: Image 561
+    2300064: Pillar
+    2300066: Pillar 1
+    2300068: Pillar 2
+    2300070: Pillar 3
+    2300072: Pillar 4
+    2300074: Pillar 5
+    2300076: Roof
+    2300078: Tread
+    2300080: Tread 1
+    2300082: Tread 2
+    2300084: Tread#1
+    2300086: Tread#1 1
+    2300088: Tread#1 2
+    2300090: window1
+    2300092: window1 1
+    2300094: window1 10
+    2300096: window1 11
+    2300098: window1 12
+    2300100: window1 13
+    2300102: window1 14
+    2300104: window1 15
+    2300106: window1 16
+    2300108: window1 17
+    2300110: window1 18
+    2300112: window1 19
+    2300114: window1 2
+    2300116: window1 20
+    2300118: window1 21
+    2300120: window1 22
+    2300122: window1 23
+    2300124: window1 24
+    2300126: window1 25
+    2300128: window1 26
+    2300130: window1 27
+    2300132: window1 28
+    2300134: window1 29
+    2300136: window1 3
+    2300138: window1 30
+    2300140: window1 31
+    2300142: window1 32
+    2300144: window1 33
+    2300146: window1 34
+    2300148: window1 35
+    2300150: window1 36
+    2300152: window1 37
+    2300154: window1 38
+    2300156: window1 39
+    2300158: window1 4
+    2300160: window1 40
+    2300162: window1 41
+    2300164: window1 42
+    2300166: window1 43
+    2300168: window1 44
+    2300170: window1 45
+    2300172: window1 46
+    2300174: window1 47
+    2300176: window1 48
+    2300178: window1 49
+    2300180: window1 5
+    2300182: window1 50
+    2300184: window1 51
+    2300186: window1 52
+    2300188: window1 53
+    2300190: window1 54
+    2300192: window1 55
+    2300194: window1 56
+    2300196: window1 57
+    2300198: window1 58
+    2300200: window1 59
+    2300202: window1 6
+    2300204: window1 60
+    2300206: window1 61
+    2300208: window1 62
+    2300210: window1 63
+    2300212: window1 64
+    2300214: window1 65
+    2300216: window1 7
+    2300218: window1 8
+    2300220: window1 9
+    2300222: window2
+    2300224: window2 1
+    2300226: window2 10
+    2300228: window2 11
+    2300230: window2 12
+    2300232: window2 13
+    2300234: window2 14
+    2300236: window2 15
+    2300238: window2 16
+    2300240: window2 17
+    2300242: window2 18
+    2300244: window2 19
+    2300246: window2 2
+    2300248: window2 20
+    2300250: window2 21
+    2300252: window2 22
+    2300254: window2 23
+    2300256: window2 24
+    2300258: window2 25
+    2300260: window2 26
+    2300262: window2 27
+    2300264: window2 28
+    2300266: window2 29
+    2300268: window2 3
+    2300270: window2 30
+    2300272: window2 31
+    2300274: window2 32
+    2300276: window2 33
+    2300278: window2 34
+    2300280: window2 35
+    2300282: window2 36
+    2300284: window2 37
+    2300286: window2 38
+    2300288: window2 39
+    2300290: window2 4
+    2300292: window2 40
+    2300294: window2 41
+    2300296: window2 42
+    2300298: window2 43
+    2300300: window2 44
+    2300302: window2 45
+    2300304: window2 46
+    2300306: window2 47
+    2300308: window2 48
+    2300310: window2 49
+    2300312: window2 5
+    2300314: window2 50
+    2300316: window2 51
+    2300318: window2 52
+    2300320: window2 53
+    2300322: window2 54
+    2300324: window2 55
+    2300326: window2 56
+    2300328: window2 57
+    2300330: window2 58
+    2300332: window2 59
+    2300334: window2 6
+    2300336: window2 60
+    2300338: window2 61
+    2300340: window2 62
+    2300342: window2 63
+    2300344: window2 64
+    2300346: window2 7
+    2300348: window2 8
+    2300350: window2 9
+    2300352: window2x3
+    2300354: window2x3 1
+    2300356: window3
+    2300358: window3 1
+    2300360: window3 10
+    2300362: window3 11
+    2300364: window3 12
+    2300366: window3 13
+    2300368: window3 14
+    2300370: window3 15
+    2300372: window3 16
+    2300374: window3 17
+    2300376: window3 18
+    2300378: window3 19
+    2300380: window3 2
+    2300382: window3 20
+    2300384: window3 21
+    2300386: window3 22
+    2300388: window3 23
+    2300390: window3 24
+    2300392: window3 25
+    2300394: window3 26
+    2300396: window3 27
+    2300398: window3 28
+    2300400: window3 29
+    2300402: window3 3
+    2300404: window3 30
+    2300406: window3 31
+    2300408: window3 32
+    2300410: window3 33
+    2300412: window3 34
+    2300414: window3 35
+    2300416: window3 36
+    2300418: window3 37
+    2300420: window3 38
+    2300422: window3 39
+    2300424: window3 4
+    2300426: window3 40
+    2300428: window3 41
+    2300430: window3 42
+    2300432: window3 43
+    2300434: window3 44
+    2300436: window3 45
+    2300438: window3 46
+    2300440: window3 47
+    2300442: window3 48
+    2300444: window3 49
+    2300446: window3 5
+    2300448: window3 50
+    2300450: window3 51
+    2300452: window3 52
+    2300454: window3 53
+    2300456: window3 54
+    2300458: window3 55
+    2300460: window3 56
+    2300462: window3 57
+    2300464: window3 58
+    2300466: window3 59
+    2300468: window3 6
+    2300470: window3 60
+    2300472: window3 61
+    2300474: window3 62
+    2300476: window3 63
+    2300478: window3 64
+    2300480: window3 7
+    2300482: window3 8
+    2300484: window3 9
+    2300486: window3x3
+    2300488: window3x3 1
+    2300490: window_basement
+    2300492: window_basement 1
+    2300494: window_basement 10
+    2300496: window_basement 11
+    2300498: window_basement 12
+    2300500: window_basement 13
+    2300502: window_basement 14
+    2300504: window_basement 15
+    2300506: window_basement 16
+    2300508: window_basement 17
+    2300510: window_basement 18
+    2300512: window_basement 19
+    2300514: window_basement 2
+    2300516: window_basement 20
+    2300518: window_basement 21
+    2300520: window_basement 22
+    2300522: window_basement 23
+    2300524: window_basement 24
+    2300526: window_basement 25
+    2300528: window_basement 26
+    2300530: window_basement 27
+    2300532: window_basement 28
+    2300534: window_basement 29
+    2300536: window_basement 3
+    2300538: window_basement 30
+    2300540: window_basement 31
+    2300542: window_basement 32
+    2300544: window_basement 33
+    2300546: window_basement 34
+    2300548: window_basement 35
+    2300550: window_basement 36
+    2300552: window_basement 37
+    2300554: window_basement 38
+    2300556: window_basement 39
+    2300558: window_basement 4
+    2300560: window_basement 40
+    2300562: window_basement 41
+    2300564: window_basement 42
+    2300566: window_basement 43
+    2300568: window_basement 44
+    2300570: window_basement 45
+    2300572: window_basement 46
+    2300574: window_basement 47
+    2300576: window_basement 48
+    2300578: window_basement 49
+    2300580: window_basement 5
+    2300582: window_basement 50
+    2300584: window_basement 51
+    2300586: window_basement 52
+    2300588: window_basement 53
+    2300590: window_basement 54
+    2300592: window_basement 55
+    2300594: window_basement 56
+    2300596: window_basement 57
+    2300598: window_basement 58
+    2300600: window_basement 59
+    2300602: window_basement 6
+    2300604: window_basement 60
+    2300606: window_basement 61
+    2300608: window_basement 7
+    2300610: window_basement 8
+    2300612: window_basement 9
+    3300000: Chimney
+    3300002: Chimney 1
+    3300004: Chimney 10
+    3300006: Chimney 11
+    3300008: Chimney 12
+    3300010: Chimney 13
+    3300012: Chimney 14
+    3300014: Chimney 15
+    3300016: Chimney 16
+    3300018: Chimney 17
+    3300020: Chimney 18
+    3300022: Chimney 19
+    3300024: Chimney 2
+    3300026: Chimney 3
+    3300028: Chimney 4
+    3300030: Chimney 5
+    3300032: Chimney 6
+    3300034: Chimney 7
+    3300036: Chimney 8
+    3300038: Chimney 9
+    3300040: door
+    3300042: door 1
+    3300044: //RootNode
+    3300046: Group 10
+    3300048: Group 12
+    3300050: Group 14
+    3300052: Group 22
+    3300054: Group 4
+    3300056: Group 558
+    3300058: Group 6
+    3300060: Group 8
+    3300062: Image 561
+    3300064: Pillar
+    3300066: Pillar 1
+    3300068: Pillar 2
+    3300070: Pillar 3
+    3300072: Pillar 4
+    3300074: Pillar 5
+    3300076: Roof
+    3300078: Tread
+    3300080: Tread 1
+    3300082: Tread 2
+    3300084: Tread#1
+    3300086: Tread#1 1
+    3300088: Tread#1 2
+    3300090: window1
+    3300092: window1 1
+    3300094: window1 10
+    3300096: window1 11
+    3300098: window1 12
+    3300100: window1 13
+    3300102: window1 14
+    3300104: window1 15
+    3300106: window1 16
+    3300108: window1 17
+    3300110: window1 18
+    3300112: window1 19
+    3300114: window1 2
+    3300116: window1 20
+    3300118: window1 21
+    3300120: window1 22
+    3300122: window1 23
+    3300124: window1 24
+    3300126: window1 25
+    3300128: window1 26
+    3300130: window1 27
+    3300132: window1 28
+    3300134: window1 29
+    3300136: window1 3
+    3300138: window1 30
+    3300140: window1 31
+    3300142: window1 32
+    3300144: window1 33
+    3300146: window1 34
+    3300148: window1 35
+    3300150: window1 36
+    3300152: window1 37
+    3300154: window1 38
+    3300156: window1 39
+    3300158: window1 4
+    3300160: window1 40
+    3300162: window1 41
+    3300164: window1 42
+    3300166: window1 43
+    3300168: window1 44
+    3300170: window1 45
+    3300172: window1 46
+    3300174: window1 47
+    3300176: window1 48
+    3300178: window1 49
+    3300180: window1 5
+    3300182: window1 50
+    3300184: window1 51
+    3300186: window1 52
+    3300188: window1 53
+    3300190: window1 54
+    3300192: window1 55
+    3300194: window1 56
+    3300196: window1 57
+    3300198: window1 58
+    3300200: window1 59
+    3300202: window1 6
+    3300204: window1 60
+    3300206: window1 61
+    3300208: window1 62
+    3300210: window1 63
+    3300212: window1 64
+    3300214: window1 65
+    3300216: window1 7
+    3300218: window1 8
+    3300220: window1 9
+    3300222: window2
+    3300224: window2 1
+    3300226: window2 10
+    3300228: window2 11
+    3300230: window2 12
+    3300232: window2 13
+    3300234: window2 14
+    3300236: window2 15
+    3300238: window2 16
+    3300240: window2 17
+    3300242: window2 18
+    3300244: window2 19
+    3300246: window2 2
+    3300248: window2 20
+    3300250: window2 21
+    3300252: window2 22
+    3300254: window2 23
+    3300256: window2 24
+    3300258: window2 25
+    3300260: window2 26
+    3300262: window2 27
+    3300264: window2 28
+    3300266: window2 29
+    3300268: window2 3
+    3300270: window2 30
+    3300272: window2 31
+    3300274: window2 32
+    3300276: window2 33
+    3300278: window2 34
+    3300280: window2 35
+    3300282: window2 36
+    3300284: window2 37
+    3300286: window2 38
+    3300288: window2 39
+    3300290: window2 4
+    3300292: window2 40
+    3300294: window2 41
+    3300296: window2 42
+    3300298: window2 43
+    3300300: window2 44
+    3300302: window2 45
+    3300304: window2 46
+    3300306: window2 47
+    3300308: window2 48
+    3300310: window2 49
+    3300312: window2 5
+    3300314: window2 50
+    3300316: window2 51
+    3300318: window2 52
+    3300320: window2 53
+    3300322: window2 54
+    3300324: window2 55
+    3300326: window2 56
+    3300328: window2 57
+    3300330: window2 58
+    3300332: window2 59
+    3300334: window2 6
+    3300336: window2 60
+    3300338: window2 61
+    3300340: window2 62
+    3300342: window2 63
+    3300344: window2 64
+    3300346: window2 7
+    3300348: window2 8
+    3300350: window2 9
+    3300352: window2x3
+    3300354: window2x3 1
+    3300356: window3
+    3300358: window3 1
+    3300360: window3 10
+    3300362: window3 11
+    3300364: window3 12
+    3300366: window3 13
+    3300368: window3 14
+    3300370: window3 15
+    3300372: window3 16
+    3300374: window3 17
+    3300376: window3 18
+    3300378: window3 19
+    3300380: window3 2
+    3300382: window3 20
+    3300384: window3 21
+    3300386: window3 22
+    3300388: window3 23
+    3300390: window3 24
+    3300392: window3 25
+    3300394: window3 26
+    3300396: window3 27
+    3300398: window3 28
+    3300400: window3 29
+    3300402: window3 3
+    3300404: window3 30
+    3300406: window3 31
+    3300408: window3 32
+    3300410: window3 33
+    3300412: window3 34
+    3300414: window3 35
+    3300416: window3 36
+    3300418: window3 37
+    3300420: window3 38
+    3300422: window3 39
+    3300424: window3 4
+    3300426: window3 40
+    3300428: window3 41
+    3300430: window3 42
+    3300432: window3 43
+    3300434: window3 44
+    3300436: window3 45
+    3300438: window3 46
+    3300440: window3 47
+    3300442: window3 48
+    3300444: window3 49
+    3300446: window3 5
+    3300448: window3 50
+    3300450: window3 51
+    3300452: window3 52
+    3300454: window3 53
+    3300456: window3 54
+    3300458: window3 55
+    3300460: window3 56
+    3300462: window3 57
+    3300464: window3 58
+    3300466: window3 59
+    3300468: window3 6
+    3300470: window3 60
+    3300472: window3 61
+    3300474: window3 62
+    3300476: window3 63
+    3300478: window3 64
+    3300480: window3 7
+    3300482: window3 8
+    3300484: window3 9
+    3300486: window3x3
+    3300488: window3x3 1
+    3300490: window_basement
+    3300492: window_basement 1
+    3300494: window_basement 10
+    3300496: window_basement 11
+    3300498: window_basement 12
+    3300500: window_basement 13
+    3300502: window_basement 14
+    3300504: window_basement 15
+    3300506: window_basement 16
+    3300508: window_basement 17
+    3300510: window_basement 18
+    3300512: window_basement 19
+    3300514: window_basement 2
+    3300516: window_basement 20
+    3300518: window_basement 21
+    3300520: window_basement 22
+    3300522: window_basement 23
+    3300524: window_basement 24
+    3300526: window_basement 25
+    3300528: window_basement 26
+    3300530: window_basement 27
+    3300532: window_basement 28
+    3300534: window_basement 29
+    3300536: window_basement 3
+    3300538: window_basement 30
+    3300540: window_basement 31
+    3300542: window_basement 32
+    3300544: window_basement 33
+    3300546: window_basement 34
+    3300548: window_basement 35
+    3300550: window_basement 36
+    3300552: window_basement 37
+    3300554: window_basement 38
+    3300556: window_basement 39
+    3300558: window_basement 4
+    3300560: window_basement 40
+    3300562: window_basement 41
+    3300564: window_basement 42
+    3300566: window_basement 43
+    3300568: window_basement 44
+    3300570: window_basement 45
+    3300572: window_basement 46
+    3300574: window_basement 47
+    3300576: window_basement 48
+    3300578: window_basement 49
+    3300580: window_basement 5
+    3300582: window_basement 50
+    3300584: window_basement 51
+    3300586: window_basement 52
+    3300588: window_basement 53
+    3300590: window_basement 54
+    3300592: window_basement 55
+    3300594: window_basement 56
+    3300596: window_basement 57
+    3300598: window_basement 58
+    3300600: window_basement 59
+    3300602: window_basement 6
+    3300604: window_basement 60
+    3300606: window_basement 61
+    3300608: window_basement 7
+    3300610: window_basement 8
+    3300612: window_basement 9
+    4300000: Mesh Gridley_kd16
+    4300002: Mesh Roof
+    4300004: Mesh Group 4
+    4300006: Mesh Group 6
+    4300008: Mesh Group 8
+    4300010: Mesh Group 10
+    4300012: Mesh Group 12
+    4300014: Mesh Group 14
+    4300016: Mesh Tread
+    4300018: Mesh Group 22
+    4300020: Mesh Tread#1
+    4300022: Mesh window2
+    4300024: Mesh window3
+    4300026: Mesh window1
+    4300028: Mesh window_basement
+    4300030: Mesh window_basement
+    4300032: Mesh window3x3
+    4300034: Mesh window2x3
+    4300036: Mesh door
+    4300038: Mesh Group 558
+    4300040: Mesh Floorplan
+    4300042: Mesh Pillar
+    4300044: Mesh Chimney
+    4300046: Mesh Chimney
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 11
+    second: {fileID: 2100000, guid: 8a187e263fc034181a9b0043b81a8077, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Brick Rough Tan]'
+    second: {fileID: 2100000, guid: 7616c7703756c4bbb93bea4f318db764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Brick Tumbled]'
+    second: {fileID: 2100000, guid: 9adbeac3430104877b10c9642fbe4760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing Shingles Variable]'
+    second: {fileID: 2100000, guid: ef111da904c6f43b6ba4c4e28edee9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent Glass Gray]'
+    second: {fileID: 2100000, guid: fe0cdecf120e54ff2b2acb1d68e107ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent_Glass_Gray]'
+    second: {fileID: 2100000, guid: da38cf746e117454faebe437f9db41b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Lumber ButtJoined]'
+    second: {fileID: 2100000, guid: dfe3f81ea56494b0bbca45fc540141ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood_Cherry_Original]'
+    second: {fileID: 2100000, guid: 7ecc1db6e059f43378ca6c30e324a41e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: ae2f422a4895b447f8e6cf110feb219b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 87c02105c07654b92b8ae01b6120d247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: 9bc8ed5c7dfab4b72890d122e96f6399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 058fd6cac0b0b4d41865eef3c3cf35ad, type: 2}
   materials:
     importMaterials: 1
     materialName: 2
     materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -52,13 +1390,18 @@ SketchUpImporter:
     globalScale: 0.0254
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -68,9 +1411,11 @@ SketchUpImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +1426,10 @@ SketchUpImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1

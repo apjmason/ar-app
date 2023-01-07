@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{0F036739-9C13-A7B7-D2E7-B735CBF43534}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MediaTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MediaTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/convertToUTM15N.cs" Line="4" Column="15" />
+      <File FileName="Assets/Scripts/convertlatlongUTM.cs" Line="105" Column="3" />
+      <File FileName="Assets/Scripts/Camera Controller.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
